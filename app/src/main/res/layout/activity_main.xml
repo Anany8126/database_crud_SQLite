@@ -24,8 +24,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginLeft="25dp"
             android:textSize="30sp"
-            android:textColorHint="#fff"
-            android:gravity="center_horizontal" />
+            android:textColorHint="#fff" />
 
         <EditText
             android:id="@+id/et1"
