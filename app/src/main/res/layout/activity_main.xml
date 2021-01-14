@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/yellow"
+
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <EditText
+            android:id="@+id/et0"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_et"
+            android:inputType="number"
+            android:hint="ID"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="30sp"
+            android:textColorHint="#fff"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_et"
+            android:inputType="text"
+            android:hint="First Name"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="30sp"
+            android:textColorHint="#fff"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/round_et"
+            android:textColorHint="#fff"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:textSize="30sp"
+            android:id="@+id/et2"
+            android:layout_gravity="center_horizontal" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_et"
+            android:textColorHint="#fff"
+            android:textAlignment="center"
+            android:hint="Mobile no."
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:inputType="phone"
+            android:textSize="30sp"
+            android:id="@+id/et3"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:text="ADD DATA"
+            android:background="@drawable/round_btn"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:id="@+id/bt1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:text="DELETE DATA"
+            android:background="@drawable/round_btn"
+            android:textColor="#fff"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="30sp"
+            android:id="@+id/bt2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/bt3"
+            android:layout_marginTop="30dp"
+            android:text="UPDATE DATA"
+            android:background="@drawable/round_btn"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#fff"
+            android:textSize="30sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:text="VIEW DATA"
+            android:background="@drawable/round_btn"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:id="@+id/bt4"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>
